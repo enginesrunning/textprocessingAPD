@@ -87,3 +87,8 @@ parallel:
 Number of threads: 1
 Parallel Word Count completed in 0.0056034 seconds.
 Memory used: 100 KB
+
+2) Running Parallel Word Count...
+Number of threads: 1
+Parallel Word Count completed in 0.00116034 seconds.
+Memory used: 100 KB //    >>
