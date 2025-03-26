@@ -56,3 +56,34 @@ Moreover, with memory allocation &amp; consumption:
 
 getMemoryUsage()
 -returns the memory usage of the current process in kilobytes
+
+
+RESULTS:
+
+--> sequential: <--
+1) Running Sequential Word Count...
+Sequential Word Count completed in 0.0019351 seconds.
+Memory used: 124 KB
+
+2)Running Sequential Word Count...
+Sequential Word Count completed in 0.0020776 seconds.
+Memory used: 124 KB
+
+3)Running Sequential Word Count...
+Sequential Word Count completed in 0.0016119 seconds.
+Memory used: 124 KB
+
+4)Running Sequential Word Count...
+Sequential Word Count completed in 0.0019311 seconds.
+Memory used: 124 KB
+
+5)Running Sequential Word Count...
+Sequential Word Count completed in 0.0017769 seconds.
+Memory used: 124 KB
+
+parallel: 
+
+1) Running Parallel Word Count...
+Number of threads: 1
+Parallel Word Count completed in 0.0056034 seconds.
+Memory used: 100 KB
