@@ -1,0 +1,58 @@
+Algoritmi paraleli și distribuiți
+
+Stan Gabriel-Cristinel
+
+I. Introduction
+This project focuses on implementing a text processing
+algorithm to count word frequencies in a large text file. The
+main goal is to explore how we can parallelize the word
+counting process to enhance the efficiency when dealing with
+large-scale text data.
+
+II. Description
+
+1. Sequential word counting (countWordsSequential)
+-reads the entire text file word by word and counts the
+frequency
+-unordered_map (words = kyes, freq = value)
+-processes file sequentially, reads line by line and updates
+the word in a single thread
+
+2. Parallel word counting (countWordsParallel)
+-reads the entire file into an array (dynamic vector) and
+counts word frequencies in parallel using OpenMP
+-text split into multiple chunks, each chunk processed by a
+different thread
+
+-unordered_map used for each thread to store the word
+count for the respective chunk
+-speeds up the word count process
+
+3. Main()
+-calls either sequential or parallel
+-prints word count results
+
+Overall,
+
+Language: C++
+Frameworks/System features: C++ STL (data structures like
+maps, vectors), OpenMP(parallelized calculation, frozen),
+Chrono (time specifications)
+
+III. Results || Execution time:
+
+--sequential
+--parallel
+
+separate, parallel is usually (or normally faster than sequential)
+
+Note! This can differ because of possible bottleneck (critical
+section declaration) but it’s otherwise fine.
+
+Moreover, with memory allocation &amp; consumption:
+
+--secvential
+--parallel
+
+getMemoryUsage()
+-returns the memory usage of the current process in kilobytes
