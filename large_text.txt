@@ -1,0 +1,17 @@
+Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+
+Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+
+The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.
+
+This is a sample text file to test word frequency counting. It contains repeated words and some unique words.
+
+C++ is a powerful language. C++ supports both procedural and object-oriented programming paradigms. OpenMP enables parallel computing in C++.
+
+Parallel computing can improve performance in large-scale applications. However, debugging parallel programs can be challenging.
+
+Multithreading and multiprocessing are different approaches to parallel execution.
+
+Boost and OpenMP are popular frameworks for parallel processing. The STL provides useful data structures for text processing tasks.
+
+This file is large enough to simulate word frequency analysis.
